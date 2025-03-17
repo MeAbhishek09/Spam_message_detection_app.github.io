@@ -37,17 +37,25 @@ def transform_text(text):
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 model = pickle.load(open("model.pkl", "rb"))
 
-# print("Model and Vectorizer loaded successfully!")
+st.set_page_config(page_title="Spam Message Detection", page_icon="📩", layout="centered")
 st.title("Email/SMS Spam Classifier")
-sms = st.text_area("Enter the message")
+st.markdown("""
+    ### 🔍 Detect Spam Messages Instantly!""")
+sms = st.text_area("Enter a message below and our ML model will predict whether it is spam or not.")
 
-if st.button("predict"):
+st.sidebar.header("⚙️ Settings")
+st.sidebar.write("Adjust parameters if needed.")
+st.sidebar.markdown("---")
+
+if st.button("Check Message"):
 
     transform_sms =transform_text(sms)
     vectorized_sms = vectorizer.transform([transform_sms])
 
     result = model.predict(vectorized_sms)[0]
     if result == 1:
-        st.header("Spam")
+        st.header("🔴 Spam")
     else:
-        st.header("Not Spam")
+        st.header("🟢 Not Spam")
+
+    st.success("✅ Try different messages and see how the model performs!")
