@@ -55,17 +55,20 @@ Word clouds give an intuitive visualization of the most common words appearing i
 
 - **Spam Messages Word Cloud** (Top frequent words in spam messages):
 
- ![image](https://github.com/user-attachments/assets/2e8c3e0d-5a9c-4118-98b1-92c92f8b40a0)
+ ![image](https://github.com/user-attachments/assets/8ec1f724-9922-4052-800d-b7eb3e952817)
+
 
 
 - **Ham Messages Word Cloud** (Top frequent words in non-spam messages):
 
-  ![Ham Word Cloud](ham_word_cloud.png)
+  ![Ham Word Cloud]![image](https://github.com/user-attachments/assets/566e64d2-762f-4cdb-b5b3-4f36ea4d49a2)
+
 
 ### 3️⃣ Pairplot Analysis
 A pairplot showing relationships between numerical features such as **number of characters, words, and sentences** in spam vs. ham messages:
 
-![Pairplot Analysis](pairplot_analysis.png)
+![image](https://github.com/user-attachments/assets/55df158e-aba4-4f50-bbb0-d93d5148b1b3)
+
 
 This visualization helps in understanding the distribution and correlations between different features used in spam detection.
 
@@ -79,7 +82,8 @@ This visualization helps in understanding the distribution and correlations betw
 
 Below is an example of the app classifying a message as spam:
 
-![Spam Detection Output](spam_detection_output.png)
+![Screenshot (2)](https://github.com/user-attachments/assets/d2a94fba-e373-4a2d-a129-452696038206)
+
 
 ## 🤝 Contributing
 
