@@ -47,14 +47,16 @@ The dataset consists of **5,572 messages**, where:
 ### 1️⃣ Frequent Words in Ham Messages
 A bar chart showcasing the most commonly used words in **ham (non-spam)** messages:
 
-![Ham Words Frequency](ham_words_frequency.png)
+![image](https://github.com/user-attachments/assets/be484d42-84fe-4445-9069-b096755c6178)
+
 
 ### 2️⃣ Word Clouds for Spam and Ham Messages
 Word clouds give an intuitive visualization of the most common words appearing in spam and ham messages.
 
 - **Spam Messages Word Cloud** (Top frequent words in spam messages):
 
-  ![Spam Word Cloud](spam_word_cloud.png)
+ ![image](https://github.com/user-attachments/assets/2e8c3e0d-5a9c-4118-98b1-92c92f8b40a0)
+
 
 - **Ham Messages Word Cloud** (Top frequent words in non-spam messages):
 
