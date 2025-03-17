@@ -55,13 +55,13 @@ Word clouds give an intuitive visualization of the most common words appearing i
 
 - **Spam Messages Word Cloud** (Top frequent words in spam messages):
 
- ![image](https://github.com/user-attachments/assets/8ec1f724-9922-4052-800d-b7eb3e952817)
+![image](https://github.com/user-attachments/assets/8ec1f724-9922-4052-800d-b7eb3e952817)
 
 
 
 - **Ham Messages Word Cloud** (Top frequent words in non-spam messages):
 
-  ![Ham Word Cloud]![image](https://github.com/user-attachments/assets/566e64d2-762f-4cdb-b5b3-4f36ea4d49a2)
+![image](https://github.com/user-attachments/assets/566e64d2-762f-4cdb-b5b3-4f36ea4d49a2)
 
 
 ### 3️⃣ Pairplot Analysis
@@ -74,9 +74,11 @@ This visualization helps in understanding the distribution and correlations betw
 
 ## 🏗 Technologies Used
 
-- **Python** (Flask for web development)
-- **Machine Learning** (Scikit-learn, NLP techniques)
-- **HTML, CSS, JavaScript** (Frontend development)
+- **Programming Language**: Python
+- **Machine Learning Framework**: scikit-learn
+- **Natural Language Processing (NLP) Library**: NLTK 
+- **Web Framework**: Streamlit
+- **Data Processing Libraries**: pandas, NumPy
 
 ## 📸 Output Screenshot
 
