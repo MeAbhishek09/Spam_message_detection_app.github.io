@@ -21,7 +21,7 @@ The **Spam Message Detection App** is a machine learning-based web application t
 ├── web_app/              # Web application files
 │   ├── static/           # CSS, JS files
 │   ├── templates/        # HTML templates
-│   ├── app.py           # Flask web application
+│   ├── app.py            # Streamlit web application
 ├── spam_detection.ipynb  # Jupyter Notebook with ML model training
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
