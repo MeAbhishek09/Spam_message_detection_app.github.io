@@ -85,7 +85,8 @@ This visualization helps in understanding the distribution and correlations betw
 
 Below is an example of the app classifying a message as spam:
 
-![Screenshot (6)](https://github.com/user-attachments/assets/875d94e2-6792-4677-8860-22db3b5b5767)
+![Screenshot (7)](https://github.com/user-attachments/assets/47bbe757-f40b-4697-911f-245c0d2fffd6)
+
 
 
 
