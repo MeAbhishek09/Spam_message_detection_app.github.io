@@ -79,6 +79,7 @@ This visualization helps in understanding the distribution and correlations betw
 - **Natural Language Processing (NLP) Library**: NLTK 
 - **Web Framework**: Streamlit
 - **Data Processing Libraries**: pandas, NumPy
+- **Algorithm Used**: Naïve Bayes (MultinomialNB) 
 
 ## 📸 Output Screenshot
 
